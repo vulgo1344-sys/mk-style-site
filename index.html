@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MK Style - Roupas Casuais e Camisas de Time</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+background:#f9f9f9;
+color:#222;
+line-height:1.6;
+}
+
+header{
+background:#000;
+padding:20px 0;
+text-align:center;
+}
+
+header img{
+max-width:150px;
+}
+
+nav{
+background:#222;
+display:flex;
+justify-content:center;
+gap:40px;
+padding:15px 0;
+font-weight:bold;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#007bff;
+}
+
+.container{
+max-width:1100px;
+margin:40px auto;
+padding:0 20px;
+}
+
+h1{
+text-align:center;
+margin-bottom:40px;
+color:#111;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.product-card{
+background:#fff;
+border-radius:8px;
+box-shadow:0 2px 8px rgb(0 0 0 / 0.1);
+overflow:hidden;
+transition:0.2s;
+}
+
+.product-card:hover{
+transform:scale(1.05);
+}
+
+.product-card img{
+width:100%;
+}
+
+.product-info{
+padding:15px;
+text-align:center;
+}
+
+.product-info h3{
+margin-bottom:10px;
+}
+
+.product-info p{
+color:#555;
+margin-bottom:15px;
+}
+
+.product-info button{
+background:#007bff;
+color:#fff;
+border:none;
+padding:10px 15px;
+border-radius:5px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.product-info button:hover{
+background:#0056b3;
+}
+
+footer{
+background:#222;
+color:#ccc;
+text-align:center;
+padding:20px 10px;
+margin-top:60px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="https://i.imgur.com/FkAJEGl.png">
+</header>
+
+<nav>
+<a href="#casual">Casual</a>
+<a href="#camisas">Camisas de Time</a>
+<a href="#contato">Contato</a>
+</nav>
+
+<main class="container">
+
+<section id="casual">
+<h1>Roupas Casuais</h1>
+
+<div class="products">
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350?text=Camiseta+Casual">
+<div class="product-info">
+<h3>Camiseta Casual</h3>
+<p>Confortável e estilosa para o dia a dia.</p>
+<button>Comprar</button>
+</div>
+</div>
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350?text=Calça+Jeans">
+<div class="product-info">
+<h3>Calça Jeans</h3>
+<p>Estilo e conforto que combinam com tudo.</p>
+<button>Comprar</button>
+</div>
+</div>
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350?text=Moletom">
+<div class="product-info">
+<h3>Moletom</h3>
+<p>Ideal para dias mais frios com estilo.</p>
+<button>Comprar</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="camisas" style="margin-top:60px;">
+<h1>Camisas de Time</h1>
+
+<div class="products">
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350?text=Camisa+Time+1">
+<div class="product-info">
+<h3>Camisa Time 1</h3>
+<p>Mostre sua paixão pelo seu time favorito.</p>
+<button>Comprar</button>
+</div>
+</div>
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350?text=Camisa+Time+2">
+<div class="product-info">
+<h3>Camisa Time 2</h3>
+<p>Design exclusivo para torcedores dedicados.</p>
+<button>Comprar</button>
+</div>
+</div>
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350?text=Camisa+Time+3">
+<div class="product-info">
+<h3>Camisa Time 3</h3>
+<p>Moda e torcida unidas num único produto.</p>
+<button>Comprar</button>
+</div>
+</div>
+
+</div>
+</section>
+
+</main>
+
+<footer id="contato">
+<p>Contato: contato@mkstyle.com.br | Telefone: (11) 99999-9999</p>
+<p>© 2024 MK Style - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
